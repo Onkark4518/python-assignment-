@@ -1,0 +1,68 @@
+# set 
+
+set1={"data","python","multiple"}
+set2={1,2,3,4}
+set3=set1.union(set2)
+print(set3)
+set1={"data","python","multiple"}
+set2={1,2,3}
+print(set1.intersection(set2))
+
+def add():
+  print("hello guys")
+add()
+def add1(num1,num2):
+  print("the addition for two values are",(num1+num2))
+add1(45,55)
+
+def div(a,b):
+  print(a/b)
+div(5,3)
+
+def mul(a,b):
+  print(a*b)
+mul(5,3)
+
+def add1():
+  a=int(input("Enter a  number"))
+  b=int(input("Enter other number"))
+  print("Sum of the above number is:",(a+b))
+add1()
+
+# tuple 
+mytuple=("Dell","Apple","Asus",245,24.658)
+print(mytuple)
+
+# Dictionary 
+
+mydic={"Brand":"Apple",
+       "Colore":"Black",
+       "Year of making":2023}
+print(mydic)
+
+mydic["Course"]="Python"
+print(mydic)
+
+mydic.pop("Colore")
+print("The values are",mydic)
+
+# list 
+
+mylist=["Data","Task",789,546.43]
+print(mylist)
+
+for a in mylist:
+  print(a)
+
+list1=["Data","Python","Course"]
+list2=[1,2,45,335.4]
+list3=list1+list2
+print(list3)
+
+list1.append("Time")
+print(list1)
+list1.extend(list2)
+print(list1)
+
+list1.remove("Course")
+print(list1)
